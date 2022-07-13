@@ -1,7 +1,7 @@
 let stockProductos = [
     {id: 1, nombre: "producto 1",talle : "Large", tipo: "remeras", cantidad: 1, precio: 1200,img: '/assets/img/remera.jpg' },
-    {id: 2, nombre: "producto 2",talle : "Small", tipo: "buzo", cantidad: 1, precio: 1100 ,img: '/CarritoDeCompra-JS/CarritoDeCompra-JS/carrito de compra/assets/img/buzo.jpg' },
-    {id: 3, nombre: "producto 3",talle : "Medium", tipo: "camperas", cantidad: 1, precio: 1200,img: '/CarritoDeCompra-JS/carrito de compra/assets/img/campera.jpg'}]
+    {id: 2, nombre: "producto 2",talle : "Small", tipo: "buzo", cantidad: 1, precio: 1100 ,img: '/assets/img/buzo.jpg' },
+    {id: 3, nombre: "producto 3",talle : "Medium", tipo: "camperas", cantidad: 1, precio: 1200,img: '/assets/img/campera.jpg'}]
 
     const contenedorProductos = document.getElementById('contenedor-productos')
     const contenedorCarrito = document.getElementById('carrito-contenedor')
@@ -129,4 +129,36 @@ contenedorModal.addEventListener('click', (event) =>{
 modalCarrito.addEventListener('click', (event) => {
     event.stopPropagation() 
 
+})
+
+
+//Librerias
+
+
+const botonFinalizarCompra = document.getElementById('finalizar-compra')
+
+botonVaciar.addEventListener('click', () => {
+    carrito.length = 0
+    actualizarCarrito()
+})
+
+botonFinalizarCompra.addEventListener('click',()=>{
+    swal({
+        title: "Deseas finalizar la compra?",
+        text: "",
+        icon: "info",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((finalizarCompra) => {
+        if (finalizarCompra) {
+          swal("Tu pedido esta siendo preparado!", {
+            icon: "success",
+          });
+          carrito.length = 0
+          actualizarCarrito()
+        } else {
+          swal("Puedes seguir comprando");
+        }
+      });
 })
