@@ -23,6 +23,7 @@ let stockProductos = [
     botonVaciar.addEventListener('click', () => {
         carrito.length = 0
         actualizarCarrito()
+        localStorage.removeItem('carrito')
     })
     //ingreso las cards de los productos
     stockProductos.forEach((producto) => {
@@ -75,9 +76,8 @@ let stockProductos = [
     
         carrito.splice(indice, 1) 
 
-        actualizarCarrito() 
+        actualizarCarrito()
 
-        console.log(carrito)
     }
     
     const actualizarCarrito = () => {
