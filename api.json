@@ -1,0 +1,5 @@
+[
+    {"id": 1, "nombre": "producto 1","talle" : "Large", "tipo": "remeras", "cantidad": 1, "precio": 1200,"img": "/assets/img/remera.jpg"},
+    {"id": 2, "nombre": "producto 2","talle": "Small", "tipo": "buzo", "cantidad": 1, "precio": 1100 ,"img": "/assets/img/buzo.jpg" },
+    {"id": 3, "nombre": "producto 3","talle": "Medium", "tipo": "camperas", "cantidad": 1, "precio": 1200,"img": "/assets/img/campera.jpg"}
+]
