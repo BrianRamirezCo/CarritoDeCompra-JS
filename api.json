@@ -2,14 +2,14 @@
     {"id": 1, "nombre": "producto 1","talle" : "Large", "category": "remeras", "cantidad": 1, "precio": 1200,"img": "/assets/img/remera.jpg"},
     {"id": 2, "nombre": "producto 2","talle": "Small", "category": "buzos", "cantidad": 1, "precio": 1100 ,"img": "/assets/img/buzo.jpg" },
     {"id": 3, "nombre": "producto 3","talle": "Medium", "category": "camperas", "cantidad": 1, "precio": 1200,"img": "/assets/img/campera.jpg"},
-    {"id": 4, "nombre": "producto 3","talle": "Medium", "category": "remeras", "cantidad": 1, "precio": 1500,"img": "/assets/img/remera2.jpg"},
-    {"id": 5, "nombre": "producto 3","talle": "Medium", "category": "buzos", "cantidad": 1, "precio": 1700,"img": "/assets/img/buzo2.jpg"},
-    {"id": 6, "nombre": "producto 3","talle": "Medium", "category": "camperas", "cantidad": 1, "precio": 1550,"img": "/assets/img/campera2.jpg"},
-    {"id": 7, "nombre": "producto 3","talle": "Medium", "category": "remeras", "cantidad": 1, "precio": 1360,"img": "/assets/img/remera3.jpg"},
-    {"id": 8, "nombre": "producto 3","talle": "Medium", "category": "buzos", "cantidad": 1, "precio": 2300,"img": "/assets/img/buzo3.jpg"},
-    {"id": 9, "nombre": "producto 3","talle": "Medium", "category": "camperas", "cantidad": 1, "precio": 4500,"img": "/assets/img/campera3.jpg"},
-    {"id": 10, "nombre": "producto 3","talle": "Medium", "category": "remeras", "cantidad": 1, "precio": 1600,"img": "/assets/img/remera4.jpg"},
-    {"id": 11, "nombre": "producto 3","talle": "Medium", "category": "buzos", "cantidad": 1, "precio": 1900,"img": "/assets/img/buzo4.jpg"},
-    {"id": 3, "nombre": "producto 3","talle": "Medium", "category": "camperas", "cantidad": 1, "precio": 3600,"img": "/assets/img/campera4.jpg"}
+    {"id": 4, "nombre": "producto 4","talle": "Medium", "category": "remeras", "cantidad": 1, "precio": 1500,"img": "/assets/img/remera2.jpg"},
+    {"id": 5, "nombre": "producto 5","talle": "Medium", "category": "buzos", "cantidad": 1, "precio": 1700,"img": "/assets/img/buzo2.jpg"},
+    {"id": 6, "nombre": "producto 6","talle": "Medium", "category": "camperas", "cantidad": 1, "precio": 1550,"img": "/assets/img/campera2.jpg"},
+    {"id": 7, "nombre": "producto 7","talle": "Medium", "category": "remeras", "cantidad": 1, "precio": 1360,"img": "/assets/img/remera3.jpg"},
+    {"id": 8, "nombre": "producto 8","talle": "Medium", "category": "buzos", "cantidad": 1, "precio": 2300,"img": "/assets/img/buzo3.jpg"},
+    {"id": 9, "nombre": "producto 9","talle": "Medium", "category": "camperas", "cantidad": 1, "precio": 4500,"img": "/assets/img/campera3.jpg"},
+    {"id": 10, "nombre": "producto 10","talle": "Medium", "category": "remeras", "cantidad": 1, "precio": 1600,"img": "/assets/img/remera4.jpg"},
+    {"id": 11, "nombre": "producto 11","talle": "Medium", "category": "buzos", "cantidad": 1, "precio": 1900,"img": "/assets/img/buzo4.jpg"},
+    {"id": 12, "nombre": "producto 12","talle": "Medium", "category": "camperas", "cantidad": 1, "precio": 3600,"img": "/assets/img/campera4.jpg"}
 
 ]
