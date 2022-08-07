@@ -18,12 +18,12 @@
         <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
     </header>
 
-    <select id="filtroTalle">
-        <option value="all">Todos</option>
-        <option value="L">Large</option>
-        <option value="M">Medium</option>
-        <option value="S">Small</option>
-    </select>
+    <div class="btn-container">
+        <button class="filterBtn boton-agregar" type="button" data-id="all">Mostrar Todo</button>
+        <button class="filterBtn boton-agregar" type="button" data-id="remeras">Remeras</button>
+        <button class="filterBtn boton-agregar" type="button" data-id="buzos">Buzos</button>
+        <button class="filterBtn boton-agregar" type="button" data-id="camperas">Camperas</button>
+    </div>
 
 
     <main id="contenedor-productos">

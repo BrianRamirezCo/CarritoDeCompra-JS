@@ -10,7 +10,7 @@
     const cantidad = document.getElementById('cantidad')
     const precioTotal = document.getElementById('precioTotal')
     const cantidadTotal = document.getElementById('cantidadTotal')
-    
+    const filterBtn = document.querySelectorAll('.filterBtn')
 
     let carrito = []
 
@@ -32,6 +32,8 @@
             productos = data
             console.log(productos);
         pintarCards(productos)
+        filtar(productos)
+        
     })
 }
     const pintarCards = data =>
@@ -171,4 +173,27 @@ botonFinalizarCompra.addEventListener('click',()=>{
           swal("Puedes seguir comprando");
         }
       });
+})
+
+
+
+
+/*filtros*/
+const filtar = data => filterBtn.forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+    const category = e.currentTarget.dataset.id;
+    console.log(category);
+    const menuCategory = productos.filter(function(menuItem){
+        if(menuItem.category === category) {
+            return menuItem;
+        }
+        })
+        if (category === "all"){
+            contenedorProductos.innerHTML = ""
+            pintarCards(productos)
+        }else {
+            contenedorProductos.innerHTML = ""
+            pintarCards(menuCategory)
+        }
+    })
 })

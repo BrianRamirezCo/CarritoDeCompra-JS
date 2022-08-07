@@ -161,3 +161,12 @@ p {
 .boton-eliminar:focus {
     outline: none;
 }
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.filterBtn{
+    margin:15px;
+}
